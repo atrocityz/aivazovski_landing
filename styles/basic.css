@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+body {
+	margin: 0;
+	background-color: var(--bg-main-white);
+	font-family: 'Roboto', sans-serif;
+	color: var(--color-main-black);
+}
+
+.container {
+	max-width: 970px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
