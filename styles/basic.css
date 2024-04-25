@@ -2,9 +2,8 @@
 	box-sizing: border-box;
 }
 
-a {
-	text-decoration: none;
-	color: unset;
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -14,8 +13,13 @@ body {
 	color: var(--color-main-black);
 }
 
+a {
+	text-decoration: none;
+	color: unset;
+}
+
 .container {
-	max-width: 970px;
+	max-width: 1010px;
 	padding: 0 30px;
 	margin: 0 auto;
 }
